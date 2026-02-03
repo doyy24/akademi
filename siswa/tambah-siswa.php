@@ -162,8 +162,7 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">Selamat Datang</h1>
-                    <h3>Aplikasi Siakad | WebDev School</h3>
+                    <h1 class="h3 mb-4 text-gray-800">TAMBAH DATA SISWA SMKN 1 CIOMAS</h1>
                       <!-- Begin Page Content -->
                 <div class="container-fluid">
                     <label for="Nama" class="form-label">Nama</label>
@@ -178,11 +177,11 @@
                         <input type="email" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                         <div id="nama" class="form-text">
                         </div>
-                        <label for="kelamin" class="form-label">Kelamin</label>
+                        <label for="jenis kelamin" class="form-label">jenis kelamin</label>
                         <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                         <div id="nama" class="form-text">
                         </div>
-
+                        <button type="submit" name="simpan">Simpan</button></form>
                   
                   
 

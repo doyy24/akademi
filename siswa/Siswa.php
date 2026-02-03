@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Siakad | webDev school</title>
+    <title>DATA SISWA</title>
 
     <!-- Custom fonts for this template-->
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -162,8 +162,7 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">Selamat Datang</h1>
-                    <h3>Aplikasi Siakad | WebDev School</h3>
+                    <h1 class="h3 mb-4 text-gray-800">DATA SISWA</h1>
                       <!-- Begin Page Content -->
                 <div class="container-fluid">
 
