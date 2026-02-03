@@ -163,7 +163,7 @@
 
                     <!-- Page Heading -->
                     <h1 class="h3 mb-4 text-gray-800">Selamat Datang</h1>
-                    <h3>Aplikasi Siakad | WebDev School</h3>
+                    <h3>X PPLG | WebDev School</h3>
                     <br>
                     <div class="row">
                      <!-- Earnings (Monthly) Card Example -->
