@@ -181,7 +181,7 @@
                         <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                         <div id="nama" class="form-text">
                         </div>
-                        <button type="submit" name="simpan">Simpan</button></form>
+                        <button class="btn btn-primary">Simpan</button></form> 
                   
                   
 
