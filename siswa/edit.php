@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>DATA SISWA</title>
+    <title>X PPLG - webDev school</title>
 
     <!-- Custom fonts for this template-->
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -162,57 +162,28 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">DATA SISWA</h1>
+                    <h1 class="h3 mb-4 text-gray-800">TAMBAH DATA SISWA SMKN 1 CIOMAS</h1>
                       <!-- Begin Page Content -->
                 <div class="container-fluid">
-
+                    <label for="Nama" class="form-label">Nama</label>
+                        <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                        <div id="nama" class="form-text">
+                        </div>
+                       <label for="Nisn" class="form-label">Nisn</label>
+                        <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                        <div id="nama" class="form-text">
+                        </div> 
+                        <label for="email" class="form-label">email</label>
+                        <input type="email" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                        <div id="nama" class="form-text">
+                        </div>
+                        <label for="jenis kelamin" class="form-label">jenis kelamin</label>
+                        <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                        <div id="nama" class="form-text">
+                        </div>
+                        <button class="btn btn-primary">Simpan</button></form> 
                   
-                    <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <a href="tambah-siswa.php" class="btn btn-primary">Tambah Data</a>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>NO</th>
-                                            <th>Nama Siswa</th>
-                                            <th>Nisn</th>
-                                            <th>Gmail</th>
-                                            <th>Jenis Kelamin</th>
-                                            <th>Aksi</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                             <?php
-                                            include '../db.php';
-                                            $i = 1;
-                                            $data = mysqli_query($koneksi, "SELECT * FROM siswa");
-                                            while($d = mysqli_fetch_array($data)){
-                                        ?>
-                                    
-                                        <tr>
-                                            <td><?php echo $i++ ?></td>
-                                            <td><?php echo $d['nama'] ?></td>
-                                            <td><?php echo $d['nisn'] ?></td>
-                                            <td><?php echo $d['email'] ?></td>
-                                            <td><?php echo $d['jk'] ?></td>
-                                            <td>
-                                                <a href="#" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></a>
-                                                <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
-                                            </td>
-                                        </tr>
-                                        <?php
-                                            }
-                                        ?>                                 
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
+                  
 
                 </div>
                 <!-- /.container-fluid -->
@@ -224,6 +195,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Siakad | WebDevSchool</span>
                     </div>
                 </div>
             </footer>
